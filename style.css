@@ -1,5 +1,6 @@
-* {
+body {
     margin: 0;
+    height: 100vh;
 }
 
 .header {
@@ -7,7 +8,6 @@
     display: flex;
     justify-content: space-around;
     align-items: center;
-    padding: 16px;
 }
 
 .logo {
@@ -30,3 +30,42 @@
     font-weight: lighter;
     color: #E5E7EB;
 }
+
+.section-one {
+    padding: 96px 8px;
+    background-color: #1F2937;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.content {
+    max-width: 400px;
+}
+
+.dog-photo {
+    max-width: 400px;
+    height: auto;
+}
+
+.awesome-heading {
+    font-size: 48px;
+    font-weight: bolder;
+    color: #F9FAF8;
+    margin-bottom: 20px;
+}
+
+.awesome-subtext {
+    font-size: 18px;
+    color: #E5E7EB;
+    margin-bottom: 20px;
+}
+
+.sign-up {
+    background-color: #3882F6;
+    color: #E5E7EB;
+    border: none;
+    font-size: 18px;
+    padding: 8px 24px;
+    border-radius: 12px;
+}
+
