@@ -112,3 +112,33 @@ body {
     border: #3882F6 solid 4px;
     border-radius: 12px;
 }
+
+/* Section Three */
+
+.section-three {
+    display: flex;    
+    justify-content: center;
+    background-color: #E5E7EB;
+    padding: 96px 8px;    
+}
+
+.section-three > .content {
+    max-width: 50%;
+}
+
+.main-text {
+    margin-bottom: 0;
+    font-size: 36px;
+    font-weight: 100;
+    color: #1F2937;
+}
+
+.secondary-text {
+    margin-top: 0;
+    text-align: end;
+    font-size: 18px;
+    font-weight: bold;
+    
+}
+
+/* Section Four */
