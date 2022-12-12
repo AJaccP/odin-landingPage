@@ -36,19 +36,22 @@ body {
 /* Section One */
 
 .section-one {
-    padding: 96px 8px;
+    padding: 80px 8px;
     background-color: #1F2937;
     display: flex;
     justify-content: space-evenly;
+    flex-wrap: wrap;
 }
 
 .section-one > .content {
     max-width: 400px;
+    padding: 16px;
 }
 
 .dog-photo {
     max-width: 400px;
     height: auto;
+    padding: 16px;
 }
 
 .awesome-heading {
@@ -92,7 +95,7 @@ body {
 .section-two > .content {
     display: flex;
     gap: 48px;
-    flex-shrink: 1;
+    flex-wrap: wrap;
 }
 
 .content-element {
@@ -142,3 +145,59 @@ body {
 }
 
 /* Section Four */
+
+.section-four {
+    display: flex;
+    justify-content: center;
+    padding: 96px 8px;
+}
+
+.section-four > .content {
+    min-width: 60%;
+    background-color: #3882F6;
+    border-radius: 8px;
+    padding: 24px 8px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+
+}
+
+.section-four > .content > .text {
+    margin-right: 8px;
+}
+
+.section-four > .content > .button {
+    background-color: transparent;
+    border: #F9FAF8 solid 2px;
+    border-radius: 8px;
+    padding: 8px 32px;
+    font-size: 18px;
+    color: #F9FAF8;
+}
+
+.section-four-heading {
+    font-size: 24px;
+    font-weight: 900;
+    color: #F9FAF8;
+    margin-bottom: 0;
+}
+
+.section-four-subtext {
+    font-weight: 100;
+    color:#F9FAF8;
+    margin-top: 0;
+}
+
+/* Footer */
+
+.footer {
+    background-color: #1F2937;
+    padding: 32px;
+    font-size: 18px;
+    color: #F9FAF8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
