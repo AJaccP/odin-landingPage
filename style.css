@@ -34,47 +34,47 @@ body {
     color: #E5E7EB;
 }
 
-/* Section One */
+/* Hero Section */
 
-.section-one {
-    padding: 80px 8px;
+#hero-section {
+    padding: 5em 1em;
     background-color: #1F2937;
     display: flex;
     justify-content: space-evenly;
     flex-wrap: wrap;
 }
 
-.section-one > .content {
+#hero-content {
     max-width: 400px;
-    padding: 16px;
+    padding: 16px 0;
 }
 
-.dog-photo {
-    max-width: 400px;
-    height: auto;
-    padding: 16px;
-}
-
-.awesome-heading {
+#hero-heading {
     font-size: 48px;
     font-weight: bolder;
     color: #F9FAF8;
-    margin-bottom: 20px;
+    margin-bottom: 0.5em;
 }
 
-.awesome-subtext {
+#hero-subtext {
     font-size: 18px;
     color: #E5E7EB;
-    margin-bottom: 20px;
+    margin-bottom: 1em;
 }
 
-.sign-up {
+#sign-up-button {
     background-color: #3882F6;
     color: #E5E7EB;
     border: none;
     font-size: 18px;
-    padding: 8px 24px;
+    padding: 0.5em 2em;
     border-radius: 12px;
+}
+
+#dog-photo {
+    max-width: 400px;
+    height: auto;
+    padding: 16px 0;
 }
 
 /* Section Two */
