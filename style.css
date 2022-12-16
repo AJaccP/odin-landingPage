@@ -77,40 +77,46 @@ body {
     padding: 16px 0;
 }
 
-/* Section Two */
+/* Information Section */
 
-.section-two {
+#information-section {
     display: flex;
     flex-direction: column;
     align-items: center;
     padding: 0 8px 96px;
 }
 
-.section-two > .text {
+#information-heading {
     text-align: center;
     font-size: 36px;
     font-weight: 900;
     color:#1F2937;
+    margin: 1em 0;
 }
 
-.section-two > .content {
+#information-content {
     display: flex;
     gap: 48px;
     flex-wrap: wrap;
+    justify-content: center;
+    
 }
 
-.content-element {
+.information-content-element {
     max-width: 150px;
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* center text*/
 }
 
-.content-element > p {
+.information-content-text {
     text-align: center;
     margin-top: 0;
-    font-size: 18px;
+    font-size: 16px;
     color: #4c545f
 }
 
-.section-two-image {
+.information-content-image {
     max-width: 150px;
     margin: 0;
     border: #3882F6 solid 4px;
