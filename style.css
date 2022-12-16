@@ -1,25 +1,25 @@
 body {
     margin: 0;
-    height: 100vh;
     font-family: 'Roboto', sans-serif;
 }
 
 /* Header */
 
-.header {
+#header {
     background-color: #1F2937;
     display: flex;
     justify-content: space-around;
     align-items: center;
 }
 
-.logo {
+#logo {
     font-size: 24px;
     font-weight: 900;
     color: #F9FAF8;
+    margin: 1em 0;
 }
 
-.header-links {
+#header-links {
     padding: 0;
     margin: 0;
     list-style: none;
@@ -30,7 +30,7 @@ body {
 .header-link {
     text-decoration: none;
     font-size: 18px;
-    font-weight: lighter;
+    font-weight: 300;
     color: #E5E7EB;
 }
 
