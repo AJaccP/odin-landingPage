@@ -62,7 +62,7 @@ body {
     margin-bottom: 1em;
 }
 
-#sign-up-button {
+#hero-sign-up-button {
     background-color: #3882F6;
     color: #E5E7EB;
     border: none;
@@ -137,7 +137,7 @@ body {
 }
 
 #quote-or-testimonials-content {
-    max-width: 50%;
+    max-width: 60%;
 }
 
 #quote-or-testimonials-content > .text {
@@ -159,13 +159,13 @@ body {
 
 /* Section Four */
 
-.section-four {
+#sign-up-section {
     display: flex;
     justify-content: center;
     padding: 96px 8px;
 }
 
-.section-four > .content {
+#sign-up-content {
     min-width: 60%;
     background-color: #3882F6;
     border-radius: 8px;
@@ -174,14 +174,13 @@ body {
     justify-content: space-around;
     align-items: center;
     flex-wrap: wrap;
-
 }
 
-.section-four > .content > .text {
+#sign-up-text {
     margin-right: 8px;
 }
 
-.section-four > .content > .button {
+#sign-up-section-button {
     background-color: transparent;
     border: #F9FAF8 solid 2px;
     border-radius: 8px;
@@ -190,14 +189,14 @@ body {
     color: #F9FAF8;
 }
 
-.section-four-heading {
+#call-to-action {
     font-size: 24px;
     font-weight: 900;
     color: #F9FAF8;
     margin-bottom: 0;
 }
 
-.section-four-subtext {
+#sign-up-subtext {
     font-weight: 100;
     color:#F9FAF8;
     margin-top: 0;
@@ -205,9 +204,9 @@ body {
 
 /* Footer */
 
-.footer {
+#footer {
     background-color: #1F2937;
-    padding: 32px;
+    padding: 2em;
     font-size: 18px;
     color: #F9FAF8;
     display: flex;
