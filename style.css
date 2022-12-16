@@ -129,26 +129,28 @@ body {
 
 /* Section Three */
 
-.section-three {
+#quote-or-testimonials-section {
     display: flex;    
     justify-content: center;
     background-color: #E5E7EB;
     padding: 96px 8px;    
 }
 
-.section-three > .content {
+#quote-or-testimonials-content {
     max-width: 50%;
 }
 
-.main-text {
-    margin-bottom: 0;
+#quote-or-testimonials-content > .text {
+    margin: 0;
+}
+
+#quote {
     font-size: 36px;
     font-weight: 100;
     color: #1F2937;
 }
 
-.secondary-text {
-    margin-top: 0;
+#quote-author {
     text-align: end;
     font-size: 18px;
     font-weight: bold;
